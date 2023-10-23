@@ -2,7 +2,7 @@ version: '3.9'
 
 services:
   apps:
-    image: 'songservice:latest'
+    image: 'song-service:latest'
     build:
       context: .
     ports:
